@@ -299,6 +299,10 @@ a {
   border: none;
   cursor: pointer;
 }
+.portfolio-nav-link > button:hover,
+.portfolio-nav-link > button:focus {
+  background-color: var(--action-color);
+}
 .portfolio-nav .portfolio-nav-link:not(:last-child) {
   margin-right: 8px;
 }
