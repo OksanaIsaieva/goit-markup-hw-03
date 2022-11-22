@@ -66,15 +66,15 @@ a {
   color: var(--action-color);
 }
 .navigation-item {
-  margin: 32px 0;
+  padding: 32px 0;
 }
 .navigation-item:not(:last-child) {
   margin-right: 50px;
 }
 .header-contacts-conteiner {
   margin-left: auto;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-contacts-conteiner .header-contacts:not(:last-child) {
   margin-right: 50px;
@@ -132,7 +132,7 @@ a {
   padding: 10px 32px;
 }
 /* ---------OUR-BENEFITS---------- */
-.benefits-container {
+.benefits {
   padding: 94px 15px;
 }
 .benefits-list {
@@ -175,7 +175,7 @@ a {
   margin-right: 30px;
 }
 /* ---------OUR-ENGAGEMENTS---------- */
-.engagement-container {
+.engagement {
   padding-bottom: 94px;
 }
 .engagement-title {
@@ -197,6 +197,10 @@ a {
   margin-right: 30px;
 }
 /* ---------OUR-TEAM---------- */
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team-title {
   font-size: 36px;
   line-height: 1.17;
@@ -208,7 +212,6 @@ a {
 }
 .team-list {
   display: flex;
-  margin-bottom: 94px;
 }
 .team-item {
   width: calc((100% - 90px) / 4);
@@ -243,6 +246,8 @@ a {
 .footer {
   background-color: #2f303a;
   border: solid 0px transparent;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-container {
   display: flex;
@@ -252,12 +257,10 @@ a {
   color: #ffffff;
 }
 .f-logo {
-  margin-top: 60px;
   width: 100%;
 }
 .footer-address-container {
   padding-top: 20px;
-  padding-bottom: 60px;
 }
 .footer-contacts {
   text-decoration: none;
@@ -275,14 +278,14 @@ a {
   margin-bottom: 9px;
 }
 /* --------PORTFOLIO-------- */
-.portfolio-container {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .portfolio-nav {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .portfolio-nav-link > button {
   font-family: inherit;
@@ -307,8 +310,7 @@ a {
   margin-right: 8px;
 }
 .portfolio-items-container {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
 }
 .portfolio-list {
   display: flex;
@@ -340,5 +342,4 @@ a {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  margin-bottom: 20px;
 }
