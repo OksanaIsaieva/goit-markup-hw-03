@@ -319,6 +319,7 @@ a {
 }
 .potfolio-item {
   width: calc((100% - 60px) / 3);
+  border: solid 1px #eeeeee;
 }
 .portfolio-list .portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;
